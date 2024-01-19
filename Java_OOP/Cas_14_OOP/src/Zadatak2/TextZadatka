@@ -1,0 +1,15 @@
+Zadatak 2:
+Napraviti klasu Pacijent koja ima id, broj godina i dijagnozu.
+
+Napraviti klasu Doktor koja ima id i listu pacijenata. Doktor takodje ima metode:
+- brojDijagnoza(String dijagnoza) - koja vraca broj pojavljivanja jedna dijagnoze
+- zarada() - vraca ukupnu zaradu doktora (zaradjuje 100e po pacijentu)
+- dodajPacijenta(Pacijent p) - dodaje pacijenta u listu pacijenata
+(doktor moze da ima do 30 pacijenata, tako da obratite paznju da ga ne ubacujemo preko limita)
+
+Klasa LekarOpstePrakse nasledjuje klasu Doktor.
+
+Klasa Oftalmolog nasledjuje klasu Doktor i on zaradjuje 120e po pacijentu.
+
+Klasa Pedijatar nasledjuje klasu Doktor i on moze da ima dodaje do 40 pacijenata
+ ali samo oni koji nemaju vise od 18 godina.

@@ -1,0 +1,13 @@
+Zadatak 1:
+Napraviti klasu Pesma koja ima broj pregleda i naziv.
+
+Napraviti klasu Album koja ima naziv i listu Pesama. Takodje ima metod:
+- najveciHit() - koji vraca naziv pesme sa albuma koja ima najvise pregleda
+
+Napraviti klasu Muzicar koji ima listu Albuma. Takodje ima metode:
+- ukupnoPregleda() - koja vraca ukupan broj pregleda koje Muzicar ima sa svih pesama, sa svih albuma
+- zarada() - vraca zaradu Muzicara
+
+Klasa RokZvezda nasledjuje klasu Muzicar i on zaradjuje 100e po svakom svom pregledu.
+
+Klasa KafanskiPevac nasledjuje klasu Muzicar i on zaradjuje 500e za svaki svoju pesmu

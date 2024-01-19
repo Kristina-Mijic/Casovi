@@ -1,0 +1,9 @@
+
+Zadatak 2:
+Napraviti klasu Knjiga koja ima naslov, broj strana, zanr i cenu.
+
+Napraviti interfejs Usluge koji ima metode za stampanje i sortiranje niza knjiga.
+
+Napraviti klasu Biblioteka implementira interfejs Usluge koja ima niz knjiga i metode:
+- knjigaSaNajviseStrana() - vraca knjigu koja ima najvise strana
+- popustNaZanr(String zanrPopust) - daje popust od 35% na sve knjige odredjenog zanra

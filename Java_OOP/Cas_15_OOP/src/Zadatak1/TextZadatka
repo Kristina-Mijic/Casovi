@@ -1,0 +1,5 @@
+Zadatak 1:
+Napraviti klasu Korisnik koji ima id i svotu para.
+Napraviti klasu Finansije koja ima listu korisnika i metodu za racunanje ukupne sume njihovih para.
+Napraviti interfejs Usluge koja ima metode za dodavanje, sortiranje i izbacivanje korisnika.
+Napraviti klasu Banka koja nasledjuje Finansije i implementira Usluge.

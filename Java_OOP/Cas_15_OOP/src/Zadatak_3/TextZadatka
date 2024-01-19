@@ -1,0 +1,13 @@
+
+Zadatak 3:
+Napraviti klasu Artikl koja ima naziv i cenu.
+
+Napraviti klasu Prodavnica koja ima listu artikala i metode:
+- sortiraj() - sortiraj listu artikala po ceni
+- popust() - daje popust 20% na najskuplji artikl u radnji
+
+Napraviti Interfejs Kurir koji ima metode:
+- daLiSeNalazi(Artikl a) - vraca true ukoliko je dati artikl tu
+- preuzmi(Artikl a) - uzima artikl iz liste i brise ga
+
+Napraviti klasu GlavniMagacin koji nasledjuje klasu Prodavnica i implementira interfejs Kurir.

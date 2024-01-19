@@ -1,0 +1,21 @@
+
+Dodatni Zadatak:
+Napraviti klasu Student koja ima id, listu ocena i godinu studiranja.Takodje ima metodu:
+prosek() - racuna ucenikov prosek
+
+Napraviti klasu Departman koja ima listu studenata.Takodje ima metode:
+- najuspesnijiUcenik() - vraca ucenika sa najboljim prosekom
+- vratiUcenike(int godina) - vraca listu ucenika iz odredjene godine studiranje
+(npr sve ucenike koji su na drugoj godini studiranja)
+- izbacivanje() - izbacuje iz liste sve studente koji imaju prosek ispod 7.0
+
+Klasa Biologija nasledjuje klasu Departman.
+
+Klasa Matematika nasledjuje klasu Departman i izbacuje ucenike koji imaju prosek ispod 8.0.
+
+Klasa Geografija nasledjuje klasu Departman i izbacuje ucenike koji imaju prosek ispod 6.5.
+
+Klasa Fakultet ima listu Departmana. Takodje ima metode:
+- djaciGeneracije() - vraca listu najboljih ucenika sa svakog departmana
+- upisiUcenika(Ucenik u, Departman d) - upisuje Ucenika "u" na Departman "d"
+- najviseDobrih() - vraca Departman koji ima najvise studenata sa prosekom iznad 9.5

@@ -1,0 +1,22 @@
+Test:
+Napraviti klasu Video koja ima atribute za naziv, broj pregleda i broj lajkova.
+
+Napraviti klasu YouTubeKanal koji od atributa ima broj ljudi koji su pretplaceni tom kanalu i listu videa.
+Takodje ima metode:
+- najpopuarnijiVideo() - vraca video sa najvise pregleda
+- ukupnoSvidjanja() - vraca ukupan broj lajkova sa svih Videa
+- zarada() - vraca ukupnu zaradu kanala ako racunamo da zaradjuje 10e po lajku.
+
+Klasa Vevo nasledjuje klasu YouTubeKanal.
+
+Klasa BBPodcast nasledjuje klasu YouTubeKanal i oni dobijaju 15% bonus na svoju zaradu.
+
+Klasa GejmingKanal nasledjuje YouTubeKanal i zaradjuje 100e od videa koji imaju vise od 1000 pregleda.
+
+Klasa YouTube ima listu kanala i ima metode:
+- najprofitabilniji() - vraca YouTube kanal koji zaradjuje najvise para
+- izbaciKanal() - ukoliko neki gejming kanal ima manje od 100 pretplacenih korisnika na tom kanalu, izbaciti ga.
+- search(String naziv) - za prosledjeni naziv vraca odredjeni videa
+
+
+// (dodatni) - napraviti metodu koja sortira kanale po broju pretplatnika

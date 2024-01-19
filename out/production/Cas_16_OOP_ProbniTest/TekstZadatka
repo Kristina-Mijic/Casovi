@@ -1,0 +1,19 @@
+
+Probni Test:
+Napraviti klasu Staza koja ima naziv i duzinu(u km).
+
+Napraviti klasu Maratonac koji ima broj godina i listu staza koje je istrcao.Takodje ima metode:
+- najduzaStaza() - vraca najduzu stazu koju je maratonac istrcao
+- ukupnaKilometraza() - vraca ukupnu kilometrazu koju je presao sa svih staza
+- humanitarnaAkcija() - koliko je maratonac zaradio para za humanitarnu akciju ako je doprineo 20 po istrcanom km.
+
+Amater nasledjuje klasu Maratonac i on za humanitarnu akciju zaradjuje 1000 po istrcanoj stazi.
+
+Rekreativac nasledjuje klasu Maratonac i on za humanitarnu akciju zaradjuje 30 po km.
+
+Profesionalac nasledjuje klasu Maratonac.
+
+Napraviti klasu Maraton koja ima listu maratonaca i dodatni atribut za temperaturu. Takodje ima metode:
+- izbaci() - ukoliko je temperatura veca od 35 stepeni izbaciti sve amatere.
+- ubaci(Maratonac m) - ukoliko maratonac ima bar 18 godina i bar 3 istrcane staze, ubaciti ga
+- nadjiStazu(Staza s) - vraca true ukoliko se data staza nalazi u maratoncevoj listi

@@ -1,0 +1,20 @@
+
+Mini Projekat:
+
+Napraviti klasu StambeniObjekat koja ima atribute za lokaciju, cenu i kvadraturu. Napraviti metodu:
+- cenaPoKvadratu() -> racuna cenu jednog kvadrata u stambenom objektu.
+
+Napraviti klasu Kuca koja nasledjuje klasu StambeniObjekat.
+
+Napraviti klasu Stan koji nasledjuje klasu StambeniObjekat i ima dodatni atribut za terasu(boolean).
+
+Napraviti klasu Agencija koja ima listu stambenih objekata.Takodje ima metode:
+- najboljaPonuda() -> vraca stambeni objekat sa najmanjom cenom po kvadratu
+- najjeftiniji() -> vraca najjeftiniji stambeni objekat
+- uPonudi(String location) -> za prosledjenu lokaciju nam vraca listu stambenih objekata na  toj lokaciji
+- uBudzetu(double budzet) -> za prosledjeni budzet nam vraca listu stambenih objekata koje korisnik moze da prisusti
+- izbaciBezTerase() -> izbacuje iz liste sve stanove koji nemaju terasu
+
+Napraviti klasu AgencijskiPortal koji ima listu agencija.Takodje ima metodu:
+- najvrednije() -> vraca agenciju koja ima najvecu vrednost u stambenim objektima
+- ubaci(Agencija a) -> ubacuje agenciju u listu ukoliko ima vise od 3 stambena objekta u ponudi

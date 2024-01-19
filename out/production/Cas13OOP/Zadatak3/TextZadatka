@@ -1,0 +1,6 @@
+Zadatak 3:
+Napraviti klasu Planina koja ima atribute za naziv i visinu.
+Napraviti apstraktnu klasu Planinar koja kao atribut ima ime planinara i listu Planina.
+Pored toga ima apstraktnu metodu za izbacivanje opasne planine iz liste, metodu za racunanje ukupne visine svih planina.
+Klasa Amater nasledjuje klasu Planinar i izbacuje opasne planine iz liste, sve koje imaju visinu vecu od 1500m.
+Klasa Profesionalac nasledjuje klasu Planinar i izbacuje opasne planine iz liste, sve koje imaju visinu vecu od 3500m.

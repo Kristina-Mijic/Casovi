@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="Selenium_Cas4" />
+        <module name="Selenium_cas5" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="Selenium_Cas1" target="21" />
+      <module name="Selenium_Cas2" target="21" />
+      <module name="Selenium_Cas3" target="21" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

@@ -1,0 +1,9 @@
+Zadatak 2:
+Napraviti klasu Ucenik koja ce imati atribute za id, godine i listu ocena.
+ Takodje u klasi Ucenik treba definisati metodu koja racuna prosek Uceniku.
+
+Napraviti apstraktnu klasu Fakultet koji ima listu Ucenika i metodu za racunanje uspesnih ucenika
+, koja prolazi kroz listu Ucenika i broji sve ucenike koje imaju prosek 8.5 i vise.
+Takodje ima apstraktnu metodu zarada koja racuna zaradu Fakulteta.
+Klasa DrzavniFakultet nasledjuje klasu Fakultet i oni zaradjuju 1000 po uceniku.
+Klasa PrivatniFakultet nasledjuje klasu Fakultet i oni zaradjuju 1400 po uceniku.
